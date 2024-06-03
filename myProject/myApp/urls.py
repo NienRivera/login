@@ -7,4 +7,5 @@ path('test/', views.test, name='test'),
 path('info/', views.info, name='info'),
 path('', views.login, name='login'),
 path('register/', views.register, name='register'),
+path('landing/', views.landing, name='landing'),
 ]

@@ -14,3 +14,6 @@ def login(request):
 
 def register(request):
     return render(request, 'register.html')
+
+def landing(request):
+    return render(request, 'landing.html')
