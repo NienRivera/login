@@ -79,12 +79,12 @@ nav .menu{
   text-align: center;
 }
 .center .title{ /*TITLE CENTER */
-  color: #fff;
+  color: #000000;
   font-size: 55px;
   font-weight: 600;
 }
 .center .sub_title{ /*TITLE CENTER LOWER */
-  color: #fff;
+  color: #000000;
   font-size: 52px;
   font-weight: 600;
 }
@@ -106,18 +106,18 @@ nav .menu{
   transition: all 0.3s ease;
 }
 .center .btns button:first-child{ /*LEARN MORE FONT*/
-  color: #fff;
+  color: #000000;
   background: none;
 }
 .btns button:first-child:hover{ /*hover at learnmore */
-  background: white;
+  background: linear-gradient(-135deg, #c850c0, #4158d0); 
   color: black;
 }
 .center .btns button:last-child{ /*SUBSCRIBE FONT*/
-    color: #fff;
+    color: #000000;
     background: none;
   }
 .center .btns button:last-child:hover{
-  background: white;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
   color: black;
 }
